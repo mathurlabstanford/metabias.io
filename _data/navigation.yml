@@ -2,7 +2,7 @@
 main:
   - title: "Instructions"
     url: /
-  - title: "Compute an E-value"
-    url: /evalue/
-  - title: "More resources"
-    url: /resources/
+  - title: "Publication bias"
+    url: /pubbias/
+  - title: "p-hacking"
+    url: /phacking/

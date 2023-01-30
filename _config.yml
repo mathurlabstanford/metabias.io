@@ -12,12 +12,12 @@
 
 ## --- Here are the most important settings ---
 
-title                    : "E-value calculator"
-name                     : "Maya Mathur"
-description              : "Calculate E-values."
-url                      : "https://www.evalue-calculator.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title                    : "Metabias"
+name                     : "Maya Mathur and Mika Braginsky"
+description              : "Meta-analysis for within-study and/or across-study biases"
+url                      : "http://metabias.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : mayamathur/evalue_website # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : mikabr/metabias.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 # See also Google Analytics and possibly social links below
 
@@ -60,7 +60,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -103,10 +103,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Maya Mathur"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "Assistant Professor"
+  location         : "Stanford University"
   email            :
   links:
     - label: "Email"
@@ -114,7 +114,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.mayamathur.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

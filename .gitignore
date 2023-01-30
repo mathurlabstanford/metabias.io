@@ -1,4 +1,15 @@
+.DS_Store
+
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Jekyll related files
+Gemfile.lock
+_site/
+.sass-cache/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
