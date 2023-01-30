@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Instructions"
-    url: /
   - title: "Publication bias"
     url: /pubbias/
   - title: "p-hacking"
