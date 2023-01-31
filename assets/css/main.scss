@@ -31,12 +31,14 @@ $cyan:    #3498db   !default;
 $light:   $gray-300 !default;
 $dark:    $gray-700 !default;
 
+$primary-color: $teal !default;
+$info-color: $teal !default;
+
 /* override colors from _variables.scss */
 $background-color: $gray-100 !default;
 $text-color: $blue !default;
 $muted-text-color: mix($blue, #fff, 75%) !default;
-$link-color: $blue !default;
-$primary-color: $teal !default;
+/* $link-color: $blue !default; */
 $border-color: $primary-color !default;
 /* $border-color: mix(#fff, $blue, 75%) !default; */
 $footer-background-color: mix(#fff, $primary-color, 75%) !default;
@@ -69,6 +71,18 @@ html {
   @include breakpoint($x-large) {
     font-size: 18px; // change to whatever
   }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .page__footer-follow {
+    li {
+      text-transform: none;
+      font-size: $type-size-5;
+    }
+  }
+
 }
 
 /* CSS based loader, see more examples here https://projects.lukehaas.me/css-loaders/ */
