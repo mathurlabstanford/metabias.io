@@ -77,12 +77,12 @@ Submit bug reports by opening an issue on GitHub:
 
 <ul class="social-icons">
 <li>
-<a href="https://github.com/mikabr/pubbias-app" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
-mikabr/pubbias-app</a>
+<a href="https://github.com/mathurlabstanford/pubbias-app" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
+mathurlabstanford/pubbias-app</a>
 </li>
 <li>
-<a href="https://github.com/mikabr/phacking-app" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
-mikabr/phacking-app</a>
+<a href="https://github.com/mathurlabstanford/phacking-app" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
+mathurlabstanford/phacking-app</a>
 </li>
 </ul>
 

@@ -17,7 +17,7 @@ name                     : "Maya Mathur and Mika Braginsky"
 description              : ""
 url                      : "https://metabias.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : mikabr/metabias.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : mathurlabstanford/metabias.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 # See also Google Analytics and possibly social links below
 
