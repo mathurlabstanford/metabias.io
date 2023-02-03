@@ -14,6 +14,10 @@ This website provides interactive apps to conduct bias corrections and
 sensitivity analyses for meta-analyses with respect to within-study and
 across-study biases.
 
+Underlying these apps is a set of R packages – see the
+<a href="https://mathurlabstanford.github.io/multibiasmeta/articles/tutorial.html" target="_blank">Metabias
+packages tutorial</a> for an introduction to the packages.
+
 ### Publication bias
 
 This app conducts sensitivity analyses for publication bias in
@@ -33,12 +37,15 @@ This app also provides a worst-case meta-analytic point estimate under
 maximal publication bias obtained simply by conducting a standard
 meta-analysis of only the negative and nonsignificant studies.
 
-Please use the following citation:
-
-<a href="https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12440" rel="nofollow noopener noreferrer" target="_blank">
+Please use the following citation:<br>
+<a href="https://rss.onlinelibrary.wiley.com/doi/10.1111/rssc.12440" target="_blank">
 Mathur MB & VanderWeele TJ (2020). Sensitivity analysis for publication
 bias in meta-analyses. *Journal of the Royal Statistical Society: Series
 C*, 69(5), 1091-1119. </a>
+
+<a href="https://mathurlabstanford.github.io/PublicationBias/" target="_blank">
+<i class="fas fa-link" aria-hidden="true"></i> PublicationBias package
+documentation </a>
 
 ### *p*-hacking
 
@@ -63,27 +70,18 @@ published nonaffirmative results to essentially impute the full
 underlying distribution of all results prior to selection due to
 *p*-hacking and/or publication bias.
 
-Please use the following citation:
-
+Please use the following citation:<br>
 <a href="https://doi.org/10.31219/osf.io/ezjsx" rel="nofollow noopener noreferrer" target="_blank">
 Mathur MB (2022). Sensitivity analysis for *p*-hacking in meta-analyses.
 </a>
 
+<a href="https://mathurlabstanford.github.io/phacking/" target="_blank">
+<i class="fas fa-link" aria-hidden="true"></i> phacking package
+documentation </a>
+
 ## Bug reports
 
 Submit bug reports by opening an issue on GitHub:
-
-<div class="page__footer-follow">
-
-<ul class="social-icons">
-<li>
-<a href="https://github.com/mathurlabstanford/pubbias-app" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
-mathurlabstanford/pubbias-app</a>
-</li>
-<li>
-<a href="https://github.com/mathurlabstanford/phacking-app" rel="nofollow noopener noreferrer" target="_blank"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
-mathurlabstanford/phacking-app</a>
-</li>
-</ul>
-
-</div>
+<a href="https://github.com/mathurlabstanford/metabias-apps" target="_blank">
+<i class="fab fa-fw fa-github" aria-hidden="true"></i>
+mathurlabstanford/metabias-apps </a>
