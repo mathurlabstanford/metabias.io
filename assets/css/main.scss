@@ -35,7 +35,7 @@ $primary-color: $teal !default;
 $info-color: $teal !default;
 
 /* override colors from _variables.scss */
-$background-color: $gray-100 !default;
+/* $background-color: $gray-100 !default; */
 $text-color: $blue !default;
 $muted-text-color: mix($blue, #fff, 75%) !default;
 /* $link-color: $blue !default; */
@@ -83,6 +83,36 @@ html {
     }
   }
 
+  p {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
+}
+
+.apps-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2em;
+
+  border: 1px solid #dee2e6;
+  border-left-width: 0.4rem;
+  border-radius: 0.25rem;
+  border-left-color: $primary-color;
+  
+  padding: 0.5em;
+
+  h2 { margin-top: 0.5em; }
+}
+
+.app-thumb {
+  max-width: 20em;
+  height: auto;
+  margin-right: 1em;
 }
 
 /* CSS based loader, see more examples here https://projects.lukehaas.me/css-loaders/ */
