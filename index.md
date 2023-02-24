@@ -22,13 +22,17 @@ packages tutorial</a> for an introduction to the packages.
 
 <div class="app-container">
 
-<img class="app-thumb" src="assets/images/pubbias.png">
+<a href="/pubbias"><img class="app-thumb" src="assets/images/pubbias.png"></a>
 
 <div>
 
+<a href="/pubbias">
 <h2>
 Publication bias
 </h2>
+
+</a>
+
 <p>
 
 This app conducts sensitivity analyses for publication bias in
@@ -67,13 +71,17 @@ documentation </a>
 
 <div class="app-container">
 
-<img class="app-thumb" src="assets/images/phacking.png">
+<a href="/phacking"><img class="app-thumb" src="assets/images/phacking.png"></a>
 
 <div>
 
+<a href="/phacking">
 <h2>
 <em>p</em>-hacking
 </h2>
+
+</a>
+
 <p>
 
 This app fits right-truncated meta-analysis (RTMA), a bias correction

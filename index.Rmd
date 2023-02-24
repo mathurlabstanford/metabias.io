@@ -25,10 +25,10 @@ Underlying these apps is a set of R packages -- see the <a href="https://mathurl
 <!-- <div class="apps-container"> -->
 
 <div class="app-container">
-<img class="app-thumb" src="assets/images/pubbias.png">
+<a href="/pubbias"><img class="app-thumb" src="assets/images/pubbias.png"></a>
 
 <div>
-<h2>Publication bias</h2>
+<a href="/pubbias"><h2>Publication bias</h2></a>
 
 <p>
 This app conducts sensitivity analyses for publication bias in meta-analyses.
@@ -59,10 +59,10 @@ PublicationBias package documentation
 
 
 <div class="app-container">
-<img class="app-thumb" src="assets/images/phacking.png">
+<a href="/phacking"><img class="app-thumb" src="assets/images/phacking.png"></a>
 
 <div>
-<h2><em>p</em>-hacking</h2>
+<a href="/phacking"><h2><em>p</em>-hacking</h2></a>
 
 <p>
 This app fits right-truncated meta-analysis (RTMA), a bias correction for the joint effects of <em>p</em>-hacking (i.e., manipulation of results within studies to obtain significant, positive estimates) and traditional publication bias (i.e., the selective publication of studies with significant, positive results) in meta-analyses.
