@@ -70,8 +70,7 @@ See [this](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2
 
 ### Adding new page for a Shiny app
 
-Here is how you can add Shiny apps that are already deployed. (See
-[Shiny app deployment](#deploying-shiny-apps-to-heroku) below.)
+Here is how you can add a page for Shiny apps that are already deployed (see the [metabias-apps repo](https://github.com/mathurlabstanford/metabias-apps) for information on how to structure and deploy them).
 
 Create new folder in the root, e.g. `my-app` and add an `my-app/index.md` file
 with the following content: change the app url
