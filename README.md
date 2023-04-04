@@ -1,17 +1,14 @@
-# Website
-
-- [Website](#website)
-  - [Website Configuration](#website-configuration)
-    - [Global settings](#global-settings)
-    - [Adding a new page](#adding-a-new-page)
-    - [Adding new page for a Shiny app](#adding-new-page-for-a-shiny-app)
-    - [Website deployment](#website-deployment)
-    - [Custom domains](#custom-domains)
-    - [Editing the outer UI of the website](#editing-the-outer-ui-of-the-website)
-  - [Local development with jekyll](#local-development-with-jekyll)
+- [Website Configuration](#website-configuration)
+  - [Global settings](#global-settings)
+  - [Adding a new page](#adding-a-new-page)
+  - [Adding new page for a Shiny app](#adding-new-page-for-a-shiny-app)
+  - [Website deployment](#website-deployment)
+  - [Custom domains](#custom-domains)
+  - [Editing the outer UI of the website](#editing-the-outer-ui-of-the-website)
+- [Local development with jekyll](#local-development-with-jekyll)
 
 Based on the [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
-under and MIT license.
+under an MIT license.
 
 ## Website Configuration
 
