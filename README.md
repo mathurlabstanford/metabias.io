@@ -122,59 +122,7 @@ To edit the outer framework exclusive of the Shiny app iframe itself (e.g., the 
 
 Note: We are using the "archive" layout (`_sass/minimal_mistakes/_archive.scss`), so if you want to change a parameter that is normally in `_page.scss`, you should change it in `_archive.scss` instead.
 
-## Deploying Shiny apps to Heroku
-
-The shiny apps live inside the `_shinyapps` folder (Jekyll ignores directories
-that begin with underscore, thus we don't need to worry about publishing the
-source code as part of the website).
-
-The apps can be placed inside this folder, e.g.
-
-- `_shinyapps/evalue`
-- `_shinyapps/app2`
-
-The structure inside the app folders can be identical:
-
-- `_shinyapps/evalue/app/global.R`: the global script
-- `_shinyapps/evalue/app/ui.R`: the UI
-- `_shinyapps/evalue/app/server.R`: the server function
-- `_shinyapps/evalue/Dockerfile`: see comments inside the file and prompts for where to edit.
-- `_shinyapps/evalue/renv.lock`: run `renv::init()` and/or `renv::snapshot()` to capture dependencies in the `renv.lock` file.
-
-Edit the `.R` files as needed, add other scripts and data objects inside the `app` folder (this is copied into the Docker image).
-
-### Heroku deployment
-
-This workflow works with public and private repositories.
-
-1. Log into Heroku, in the dashboard, click on 'New' then select 'Create new App'. Give a name (e.g. `shiny-example`, if available, this will create the app at https://shiny-example.herokuapp.com/) to the app and create the app.
-2. In your Heroku dashboard, go to your personal settings, find your API key, click on reveal and copy it, you'll need it later.
-3. Go to the Settings tab of the GitHub repo, scroll down to Secrets and add the following new repository secrets:
-  - `HEROKU_EMAIL`: your Heroku email that you use to log in
-  - `HEROKU_API_KEY`: your Heroku api key, you can find it under your personal settings, click on reveal and copy
-4. Trigger the GitHub action by a new commit to the repo (see below).
-
-See the `.github/workflows/deploy.yml` file for additional options (see also comments in the yaml file):
-
-- set the `appdir` variable to e.g. `_shinyapps/evalue`, this is the directory the script will use to find the Shiny files relative to the Dockerfile in the root of this directory
-- add the Heroku app name (shiny-example) that was set up in the Heroku dashboard previously
-- the job name must be unique in the yaml file to avoid parsing errors
-
-The plan is to add multiple Shiny apps in the same GitHub repo,
-thus we need a mechanism that only deploys one app at a time.
-The solution is to make the GitHub action jobs conditional
-on certain words in the commit message. E.g.
-it only deploys if the message contains `deploy evalue`.
-
-When you add a new app, the Heroku email and API key will remain the same.
-You will have to add a new job to the `deploy.yml` file,
-specify the trigger words, app directory, and app name.
-
-Once the app is deployed, you can add a page and navigation entry for the new
-app as desired above.
-
 ## Local development with jekyll
-
 
 ### One-time steps to set up jekyll locally
 
