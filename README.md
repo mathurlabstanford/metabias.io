@@ -16,7 +16,7 @@ under an MIT license.
 
 See full [config](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
 The following are the most important places where you need to make changes
-(see comments in these files also):
+(see comments in these files also): 
 
 - edit `_config.yml` to update site metadata
   - most important settings (site title, name, url) are highlighted at the top, 
