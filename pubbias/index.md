@@ -1,4 +1,4 @@
 ---
 layout: app
-app_url: https://qsu-stanford.shinyapps.io/pubbias/
+app_url: https://qsushiny.shinyapps.io/pubbias-app/
 ---
