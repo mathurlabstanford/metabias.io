@@ -1,4 +1,4 @@
 ---
 layout: app
-app_url: https://qsu-stanford.shinyapps.io/phacking/
+app_url: https://qsushiny.shinyapps.io/phacking/
 ---
